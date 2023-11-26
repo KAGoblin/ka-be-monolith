@@ -26,4 +26,4 @@ ENV SERVER_VERSION=$VERSION
 ENV PORT 8000
 EXPOSE $PORT
 
-CMD ["/bin/sh", "-c", "gunicorn -b :$PORT --log-level=debug --timeout 100 --workers 1 --worker-class gthread --threads 4 --max-requests 20000 --max-requests-jitter 1000 --access-logfile '-' --pythonpath ka_starter_api ka_starter_api.wsgi"]
+CMD ["/bin/sh", "-c", "gunicorn -b :$PORT --log-level=debug --timeout 100 --workers 1 --worker-class gthread --threads 4 --max-requests 20000 --max-requests-jitter 1000 --access-logfile '-' --pythonpath ka_be_monolith ka_be_monolith.wsgi"]

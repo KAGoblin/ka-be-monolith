@@ -6,7 +6,7 @@ import sys
 
 def main():
     """Run administrative tasks."""
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ka_starter_api.settings')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ka_be_monolith.settings')
     try:
         from django.core.management import execute_from_command_line
         # Override default port for `runserver` command

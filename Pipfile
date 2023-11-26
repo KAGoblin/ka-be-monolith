@@ -21,6 +21,10 @@ python-jose = "==3.3.0"
 coverage = "==7.3.2"
 requests = "==2.31.0"
 dj-database-url = "==2.1.0"
+psycopg = {extras = ["binary"], version = "==3.1.12"}
+pycountry = "==22.3.5"
+google-cloud-secret-manager = "==2.16.4"
+django-storages = {extras = ["google"], version = "==1.14.2"}
 
 [dev-packages]
 pre-commit = "*"

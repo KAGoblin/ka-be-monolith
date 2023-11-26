@@ -1,4 +1,4 @@
-# ka-starter-api
+# ka-be-monolith
 Template Repository with defined Django-Oscar configs required for academic research purpose on XYZ Corp
 
 ## Setup
